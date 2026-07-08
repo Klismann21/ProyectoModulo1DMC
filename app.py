@@ -3,6 +3,6 @@ st.title("Proyecto módulo 1 Fundamentals")
 st.sidebar.title("Parámetros")
 
 valor_inicial = st.number_input("Ingrese el valor inicial",value=0)
-valor_final= st.number_input("Ingrese el valor final"=1)
+valor_final= st.number_input("Ingrese el valor final",=1)
 
 lista_numerica=list(range(valor_inicial,valor_final))
