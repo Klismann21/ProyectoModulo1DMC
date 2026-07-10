@@ -15,8 +15,12 @@ if modulo="Modulito Listas":
   lista_numerica=list(range(valor_inicial,valor_final))
   
   st.write(lista_numerica)
-  elif modulo="Modulito Array"
+elif modulo="Modulito Array"
     st.write("Estas en el modulito de arreglos")
-  else
+    
+
+
+    
+else
     st.write("Estas en el modulo de funciones")
   
