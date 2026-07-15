@@ -37,5 +37,5 @@ else:
   tasa_anual=st.number_input("Tasa anual en decimal",value=0.10)
   anios=st.number_input("Ingrese el numero de años del prestamo",value=1)
   pagos_por_anio=st.number_input("Ingrese la cantidad de veces a pagar por año",value=12)
-  cuota= lf.cuotaprestamo(principal,tasa_anual,pagos_por_anio)
+  cuota= lf.cuota_prestamo(principal,tasa_anual,pagos_por_anio)
   st.write("El valor de las cuotas mensuales es :",cuota)
