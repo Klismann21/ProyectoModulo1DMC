@@ -1,6 +1,7 @@
 import numpy as np
 import streamlit as st
 import libreria_funciones as lf
+st.session_state
 st.title("Proyecto módulo 1 Fundamentals")
 st.sidebar.title("Parámetros")
 
